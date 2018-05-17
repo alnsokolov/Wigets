@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#70a6c6</color>
+    <color name="colorAccentDark">#41616161</color>
+    <declare-styleable name="CircleSlider"><attr format="integer" name="value"/><attr format="integer" name="max_value"/><attr format="integer" name="min_value"/><attr format="boolean" name="enabled"/><attr format="color" name="color"/></declare-styleable>
+    <declare-styleable name="CompatButton"><attr format="boolean" name="button_toggle"/><attr format="color" name="button_color"/><attr format="boolean" name="button_enabled"/><attr format="color" name="text_color"/></declare-styleable>
+    <declare-styleable name="CompatGrid"><attr format="integer" name="rows"/><attr format="integer" name="cols"/><attr format="boolean" name="grid_toggle"/><attr format="color" name="grid_color"/><attr format="integer" name="grid_border_width"/></declare-styleable>
+    <declare-styleable name="Joystick"><attr format="color" name="joystick_color"/><attr format="color" name="joystick_outer_color"/><attr format="boolean" name="joystick_enabled"/><attr format="boolean" name="joystick_sticky"/><attr format="integer" name="min_joystick_value"/><attr format="integer" name="max_joystick_value"/></declare-styleable>
+    <declare-styleable name="Slider"><attr format="enum" name="orientation">
+            <enum name="vertical" value="1"/>
+            <enum name="horizontal" value="0"/>
+        </attr><attr format="color" name="slider_color"/><attr format="boolean" name="slider_enabled"/><attr format="color" name="slider_background"/><attr format="integer" name="slider_value"/><attr format="integer" name="slider_max_value"/></declare-styleable>
+    <string name="app_name">CompatWidgets</string>
+</resources>
